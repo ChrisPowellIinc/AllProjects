@@ -1,0 +1,85 @@
+#SoulStatLogoLarge {
+	position: absolute;
+	left: 4%;
+	top: 23%;
+	width: 30%;
+	height: 70%;
+	z-index: 1;
+	background-image: url(../images/LogoLarge.fw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#DiamhnoidImg {
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	width: 125px;
+	height: 125px;
+	z-index: 1;
+	background-image: url(../images/Icon3.fw.png);
+	background-size: contain;
+	-webkit-animation: DD 9s infinite linear;
+	animation: DD 9s infinite linear;
+}
+#ZipnovusImg {
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	width: 125px;
+	height: 125px;
+	z-index: 1;
+	background-image: url(../images/Icon2.fw.png);
+	background-size: contain;
+	-webkit-animation: ZP 6s infinite linear;
+	animation: ZP 6s infinite linear;
+}
+#SoulStatImg {
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	width: 125px;
+	height: 125px;
+	z-index: 1;
+	background-image: url(../images/Icon1.png);
+	background-size: contain;
+	-webkit-animation: SS 4.5s infinite linear;
+	animation: SS 4.5s infinite linear;
+}
+
+@keyframes SS {
+	from {
+		transform: rotate(0deg)
+		           translate(-160%)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-160%) 
+		           rotate(-360deg);
+	}
+}
+@keyframes ZP {
+	from {
+		transform: rotate(0deg)
+		           translate(-130%)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-130%) 
+		           rotate(-360deg);
+	}
+
+}
+@keyframes DD {
+	from {
+		transform: rotate(0deg)
+		           translate(-90%)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-90%) 
+		           rotate(-360deg);
+	}
+}

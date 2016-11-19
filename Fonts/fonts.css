@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'DIN Web';
+  font-style: normal;
+  font-weight: 100;
+  src: local('DIN WebUltraLight'), local('DINWeb-UltraLight'), url(DINWeb-UltraLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'DIN Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local('DIN WebLight'), local('DINWeb-Light'), url(DINWeb-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'DIN Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('DIN Web'), local('DINWeb'), url(DINWeb.woff) format('woff');
+}
+@font-face {
+  font-family: 'DIN Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('DIN WebMedium'), local('DINWeb-Medium'), url(DINWeb-Medium.woff) format('woff');
+}

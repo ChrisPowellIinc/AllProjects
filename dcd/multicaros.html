@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Double Carousel Demo</title>
+
+	    <link href="styles/spinnable_carousel.css" rel="stylesheet" type="text/css" />
+
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="javascript/loadJsonIntoCube.js" type="text/javascript"></script>
+		<script src="javascript/modernizr-1.6.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/minimal.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/Vector.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/SpinnableCarousel.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/AutoSpinningCarousel.js" type="text/javascript" charset="utf-8"></script>
+
+
+		<script type="text/javascript">
+			window.addEventListener("load", function() {
+				var caro1 = new AutoSpinningCarousel(document.getElementById("menu-caro-container1"), 6000, 0, false);
+				var caro2 = new AutoSpinningCarousel(document.getElementById("menu-caro-container2"), 6000, 2000, false);
+				var caro3 = new AutoSpinningCarousel(document.getElementById("menu-caro-container3"), 6000, 4000, false);
+				loadJsonFromUrlIntoCube('json/caro3.json', document.getElementById('menu-caro-container1'));
+				loadJsonFromUrlIntoCube('json/caro3.json', document.getElementById('menu-caro-container2'));
+				loadJsonFromUrlIntoCube('json/caro3.json', document.getElementById('menu-caro-container3'));
+			});
+		</script>
+		
+		<style type="text/css">
+			html, body {
+				margin: 0;
+				padding: 0;
+			}
+
+			li {
+				display: block;
+			}
+
+			#menu .spinnable-carousel {
+				width: 100%;
+				height: 100px;
+				-webkit-transition: -webkit-transform 2s ease-in-out;
+			}
+
+			#menu li {
+				width: 10%;
+				float: left;
+				padding: 100px;
+				border: 5px solid black;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div id="container">
+			<ul id="menu">
+				<li class="spinnable-carousel-container" id="menu-caro-container1"><div class="spinnable-carousel"></div></li>
+				<li class="spinnable-carousel-container" id="menu-caro-container2"><div class="spinnable-carousel"></div></li>
+				<li class="spinnable-carousel-container" id="menu-caro-container3"><div class="spinnable-carousel"></div></li>
+			</ul>
+		</div>
+	</body>
+</html>

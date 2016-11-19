@@ -1,0 +1,439 @@
+#BackgroundImageX1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+}
+#LayoutContainerX1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.containerContainerX1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	perspective: 800px;
+}
+#apDiv1X1 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: .8;
+background-image: url(../../../images/city_by_the_bay_1232.jpg);
+	background-size: cover;
+	opacity: 1;
+	animation-name: bg1;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0ms;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+	/* Firefox: */
+	-moz-animation-name: bg1;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-delay: 0ms;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	/* Safari and Chrome: */
+	-webkit-animation-name: bg1;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0ms;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: nomral;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	/* Opera: */
+	-o-animation-name: bg1;
+	-o-animation-duration: 1s;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-delay: 0ms;
+	-o-animation-iteration-count: 1;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	-o-animation-fill-mode: forwards;
+}
+}
+@keyframes bg1
+{
+	0%   {opacity: 0}
+100% { opacity: .5;}
+}
+@-moz-keyframes bg1 /* Firefox */
+{
+	0%   {opacity: 0}
+100% { opacity:.5; }
+}
+@-webkit-keyframes bg1 /* Safari and Chrome */
+{
+	0%   {opacity: 0}
+100% { opacity: .5; }
+
+}
+@-o-keyframes bg1 /* Opera */
+{
+	0%   {opacity: 0}
+100% { opacity: .5;}
+}
+#apDiv2X1 {
+position: absolute;
+left: 0%;
+top: 64.5%;
+width: 14%;
+height: 27%;
+z-index: 120;
+background-image: url("../../images/logo.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position-x: center;}
+#apDiv3X1 {
+	position: absolute;
+left: 11%;
+top: 48%;
+width: 78%;
+height: 50%;
+overflow-y: auto;
+overflow-x: hidden;
+z-index: 10;
+font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+opacity: 0;
+font-size: 17px;
+line-height: 42px;
+text-align: justify;
+animation-name: text1;
+animation-duration: 700ms;
+animation-timing-function: ease-in-out;
+animation-delay: 700ms;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-play-state: running;
+animation-fill-mode: forwards;
+ -moz-animation-name: text1;
+-moz-animation-duration: 700ms;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-delay: 700ms;
+-moz-animation-iteration-count: 1;
+-moz-animation-direction: normal;
+-moz-animation-play-state: running;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-name: text1;
+-webkit-animation-duration: 700ms;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-delay: 700ms;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-direction: nomral;
+-webkit-animation-play-state: running;
+-webkit-animation-fill-mode: forwards;
+/* Opera: ; */
+-o-animation-name: text1;
+-o-animation-duration: 700ms;
+-o-animation-timing-function: ease-in-out;
+-o-animation-delay: 700ms;
+-o-animation-iteration-count: 1;
+-o-animation-direction: normal;
+-o-animation-play-state: running;
+-o-animation-fill-mode: forwards;
+}
+}
+@keyframes text1
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 50%;}
+}
+@-moz-keyframes text1 /* Firefox */
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 50%;}
+}
+@-webkit-keyframes text1 /* Safari and Chrome */
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 50%;}
+
+}
+@-o-keyframes text1 /* Opera */
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 50%;}
+}
+#apDiv4X1 {
+position: absolute;
+left: 10%;
+top: 50%;
+width: 80%;
+height: 50%;
+z-index: 2;
+background-color: #FFF;
+opacity: 0;
+-webkit-border-top-left-radius: 1%;
+-moz-border-radius-topleft: 1%;
+border-top-left-radius: 1%;
+animation-name: box1a;
+animation-duration: 700ms;
+animation-timing-function: ease-in-out;
+animation-delay: 700ms;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-play-state: running;
+animation-fill-mode: forwards;
+ -moz-animation-name: box1a;
+-moz-animation-duration: 700ms;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-delay: 700ms;
+-moz-animation-iteration-count: 1;
+-moz-animation-direction: normal;
+-moz-animation-play-state: running;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-name: box1a;
+-webkit-animation-duration: 700ms;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-delay: 700ms;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-direction: nomral;
+-webkit-animation-play-state: running;
+-webkit-animation-fill-mode: forwards;
+Opera: -o-animation-name: box1a;
+-o-animation-duration: 700ms;
+-o-animation-timing-function: ease-in-out;
+-o-animation-delay: 700ms;
+-o-animation-iteration-count: 1;
+-o-animation-direction: normal;
+-o-animation-play-state: running;
+-o-animation-fill-mode: forwards;
+}
+}
+@keyframes box1a
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 50%;}
+}
+@-moz-keyframes box1a /* Firefox */
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 50%;}
+}
+@-webkit-keyframes box1a /* Safari and Chrome */
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 50%;}
+
+}
+@-o-keyframes box1a /* Opera */
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 50%;}
+}
+
+
+
+#apDiv5X1 {
+position: absolute;
+left: 0%;
+top: 0%;
+width: 40%;
+height: 100%;
+z-index: 1;
+background: url(../../images/LogoParkResidences.svg);
+background-size: cover;
+opacity: .2;
+background-position-x: center;
+background-position-y: 0%;
+box-shadow: 0px 40px 64px #000;
+-webkit-border-top-left-radius: 112px;
+-moz-border-radius-topleft: 112px;
+border-top-left-radius: 88%;}
+#apDiv6X1 {
+position: absolute;
+left: 40%;
+top: 4%;
+width: 60%;
+height: 8%;
+z-index: 1;
+background: url(../../images/banner.fw.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+opacity: .95;
+}
+
+#apDiv8X1 {
+		position: absolute;
+	left: 50%;
+	top: 3.5%;
+	width: 50%;
+	height: 50%;
+	z-index: 2;
+	background-color: #FFF;
+	opacity: 0;
+	-webkit-border-top-left-radius: 1%;
+	-moz-border-radius-topleft: 1%;
+	border-top-left-radius: 1%;
+		animation-name: box2a;
+	animation-duration: 700ms;
+	animation-timing-function: ease-in-out;
+	animation-delay: 700ms;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+	/* Firefox: */
+	-moz-animation-name: box2a;
+	-moz-animation-duration: 700ms;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-delay: 700ms;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	/* Safari and Chrome: */
+	-webkit-animation-name: box2a;
+	-webkit-animation-duration: 700ms;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 700ms;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: nomral;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	/* Opera: */
+	-o-animation-name: box2a;
+	-o-animation-duration: 700ms;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-delay: 700ms;
+	-o-animation-iteration-count: 1;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	-o-animation-fill-mode: forwards;
+}
+
+}
+@keyframes box2a
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 0%;}
+}
+@-moz-keyframes box2a /* Firefox */
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 0%;}
+}
+@-webkit-keyframes box2a /* Safari and Chrome */
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 0%;}
+
+}
+@-o-keyframes box2a /* Opera */
+{
+	0%   {opacity: 0}
+100% { opacity: .93; top: 0%;}
+}
+
+
+#apDiv9X1 {
+position: absolute;
+left: 0%;
+top: 14%;
+width: 100%;
+text-align: center;
+height: 16%;
+overflow-y: auto;
+overflow-x: hidden;
+z-index: 10;
+font-family: sans-serif;
+color: rgb(216, 199, 143);
+opacity: 0;
+font-size: 30px;
+font-size: 70px;
+line-height: 65px;
+text-align: center;
+text-shadow: 0px 10px 38px #000;
+animation-name: text9;
+animation-duration: 700ms;
+animation-timing-function: ease-in-out;
+animation-delay: 700ms;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-play-state: running;
+animation-fill-mode: forwards;
+ -moz-animation-name: text9;
+-moz-animation-duration: 700ms;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-delay: 700ms;
+-moz-animation-iteration-count: 1;
+-moz-animation-direction: normal;
+-moz-animation-play-state: running;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-name: text9;
+-webkit-animation-duration: 700ms;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-delay: 700ms;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-direction: nomral;
+-webkit-animation-play-state: running;
+-webkit-animation-fill-mode: forwards;
+/* Opera: ; */
+-o-animation-name: text9;
+-o-animation-duration: 700ms;
+-o-animation-timing-function: ease-in-out;
+-o-animation-delay: 700ms;
+-o-animation-iteration-count: 1;
+-o-animation-direction: normal;
+-o-animation-play-state: running;
+-o-animation-fill-mode: forwards;
+}
+}
+@keyframes text9
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 14%;}
+}
+@-moz-keyframes text9 /* Firefox */
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 14%;}
+}
+@-webkit-keyframes text9 /* Safari and Chrome */
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 14%;}
+
+}
+@-o-keyframes text9 /* Opera */
+{
+	0%   {opacity: 0}
+100% { opacity: 1; top: 14%;}
+}
+
+
+#apDiv10X1 {
+}
+#apDiv11X1 {
+}
+#apDiv12X1 {
+}
+#apDiv13X1 {
+}
+#apDiv14X1 {
+}
+#apDiv15X1 {
+}

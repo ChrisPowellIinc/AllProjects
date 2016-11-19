@@ -1,0 +1,121 @@
+{
+	"cube": {
+		"top": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Beyonce/PH/7.png')",
+			"backgroundS": "62%",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center center",
+			"width": "160%",
+			"height": "100%",
+					"x": "-30%",
+					"y": "0px"
+	
+				}
+			]
+		},
+		
+		
+		"bottom": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Beyonce/PH/9.png')",
+			"backgroundS": "62%",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center center",
+			"width": "160%",
+			"height": "100%",
+			"boxshadowB": "0px 0px 50px #000",
+					"x": "-30%",
+					"y": "0px"
+				}
+			]
+		},
+		
+		"left": {
+			"background": "transparent",
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Beyonce/PH/16.png')",
+			"backgroundS": "62%",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center center",
+			"width": "160%",
+			"height": "100%",
+					"x": "-30%",
+					"y": "0px"
+					
+				}
+			]
+		},
+		
+		"right": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Beyonce/PH/12.png')",
+			"backgroundS": "62%",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center center",
+			"boxshadowB": "0px 0px 50px #000",			
+			"width": "160%",
+			"height": "100%",
+					"x": "-30%",
+					"y": "0px"
+
+
+				}
+			]
+		},
+		
+		"front": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Beyonce/PH/14.png')",
+			"backgroundS": "62%",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center center",
+			"boxshadowB": "0px 0px 50px #000",			
+			"width": "160%",
+			"height": "100%",
+					"x": "-30%",
+					"y": "0px"
+
+				}
+			]
+		},
+		
+		"back": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Beyonce/PH/15.png')",
+			"backgroundS": "62%",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center center",
+			"boxshadowB": "0px 0px 50px #000",			
+			"width": "160%",
+			"height": "100%",
+					"x": "-30%",
+					"y": "0px"
+
+				}
+			]
+		}
+	}
+}

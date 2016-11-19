@@ -1,0 +1,44 @@
+.carousel3d {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.ready .carousel3d {
+	-webkit-transform-origin: 0% 0%;
+      -webkit-transition: -webkit-transform 1s;
+         -moz-transition: -moz-transform 1s;
+           -o-transition: -o-transform 1s;
+              transition: transform 1s;
+}
+
+
+.carousel3d.panels-backface-invisible figure {
+      -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+}
+
+.carousel3d figure {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ready .carousel3d figure {
+      -webkit-transition: opacity .5s, -webkit-transform .5s;
+         -moz-transition: opacity .5s, -moz-transform .5s;
+           -o-transition: opacity .5s, -o-transform .5s;
+              transition: opacity .5s, transform .5s;
+}
+
+.carousel3d-container {
+	-webkit-perspective: 1100px;
+	-moz-perspective: 1100px;
+	-o-perspective: 1100px;
+	perspective: 1100px;
+}

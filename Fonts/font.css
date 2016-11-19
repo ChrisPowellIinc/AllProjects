@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'CalifR';
+	src: url('CalifR.eot'); /* IE9 Compat Modes */
+	src: url('CalifR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('CalifR.woff') format('woff'), /* Modern Browsers */
+	     url('CalifR.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('CalifR.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'gothic';
+	src: url('gothic.eot'); /* IE9 Compat Modes */
+	src: url('gothic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('gothic.woff') format('woff'), /* Modern Browsers */
+	     url('gothic.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('gothic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.textproban{
+	font-family: "Raleway";
+	color: #0B222A;
+	font-size: 18px;
+	text-align: left;
+	line-height: 41px;
+	vertical-align: middle;
+}
+.textprobanBarleft{
+	font-family: "Raleway";
+	color: #fff;
+	font-size: 18px;
+	text-align: left;
+	line-height: 41px;
+	vertical-align: middle;
+}

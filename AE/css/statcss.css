@@ -1,0 +1,81 @@
+			.stat-container {
+				background-color: white;
+				color: #666;
+				font-family: sans-serif;
+				height: 80px;
+				position: relative;
+				width: 100%;
+				-webkit-user-select: none;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				cursor: pointer;
+			}
+				
+			.stat-info {
+				background-color: white;
+				height: 80px;
+				width: 100%;
+				border: 1px solid #D6D6D6;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				-webkit-transition: top 200ms ease-in-out 0s;
+				-moz-transition: top 200ms ease-in-out 0s;
+				-ms-transition: top 200ms ease-in-out 0s;
+				-o-transition: top 200ms ease-in-out 0s;
+				transition: top 200ms ease-in-out 0s;
+			}
+
+			.gradient-container {
+				background-color: white;
+				position: absolute;
+				width: 100%;
+				height: 80px;
+				border: 1px solid #D6D6D6;
+				overflow: hidden;
+			}
+			
+			.gradient-bar {
+				height: 80px;
+				width: 0px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 0;
+				-webkit-transition: width 200ms ease-out 0s;
+				-moz-transition: width 200ms ease-out 0s;
+				-ms-transition: width 200ms ease-out 0s;
+				-o-transition: width 200ms ease-out 0s;
+				transition: width 200ms ease-out 0s;
+			}
+				
+			.rate-line {
+                height: 80px;
+				width: 0px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 0;
+				-webkit-transition: width 200ms ease-out 0s;
+				-moz-transition: width 200ms ease-out 0s;
+				-ms-transition: width 200ms ease-out 0s;
+				-o-transition: width 200ms ease-out 0s;
+				transition: width 200ms ease-out 0s;
+				border-right: 1px solid gray;	
+			}
+				
+			.rating {
+				position: relative;
+				float: right;
+				margin: 2px;
+				z-index: 1;
+				font-size: 74px;
+				line-height: 80px;
+				cursor: pointer;
+			}
+
+			.num-votes {
+				float: left;
+				margin: 2px;
+			}

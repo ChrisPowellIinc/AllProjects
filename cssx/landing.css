@@ -1,0 +1,964 @@
+#shade {
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999999;
+  -webkit-transition: all 800ms ease-in-out 0s;
+  -moz-transition: all 800ms ease-in-out 0s;
+  -ms-transition: all 800ms ease-in-out 0s;
+  -o-transition: all 800ms ease-in-out 0s;
+  transition: all 800ms ease-in-out 0s;
+  background: rgba(68, 40, 40, .8);
+}
+.shadedisplay {
+  top: 0px;
+	  -webkit-transition: all 1000ms ease-in-out 0s;
+  -moz-transition: all 1000ms ease-in-out 0s;
+  -ms-transition: all 1000ms ease-in-out 0s;
+  -o-transition: all 1000ms ease-in-out 0s;
+  transition: all 1000ms ease-in-out 0s;
+}
+.shadehidden {
+  top: -100%;
+  background: rgba(68, 40, 40, .8);
+}
+
+#accountuser {
+}
+#accountuserimg {
+	width: 100%;
+	height: 20vh;
+	background-attachment: scroll;
+	background-image: url(../Icons/usersign.fw.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+#accountusertext {
+
+}
+
+#accountmusic {
+}
+#accountmusicimg {
+	width: 100%;
+	height: 20vh;
+	background-attachment: scroll;
+	background-image: url(../Icons/musicsign.fw.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+#accountmusictext {
+
+}
+
+#accountorg {
+}
+#accountorgimg {
+	width: 100%;
+	height: 20vh;
+	background-attachment: scroll;
+	background-image: url(../Icons/organizaton.fw.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+#accountorgtext {
+
+}
+
+.accop1 {
+	    padding-top: 1vh;
+    box-shadow: 0vh 0vh 6vh #FFFFFF;
+    border-radius: 3%;
+		-webkit-transition: all 800ms ease-in-out 0s;
+	-moz-transition: all 800ms ease-in-out 0s;
+	-ms-transition: all 800ms ease-in-out 0s;
+	-o-transition: all 800ms ease-in-out 0s;
+	transition: all 800ms ease-in-out 0s;
+    position: absolute;
+    top: 7vh;
+    left: 28vw;
+    width: 28vh;
+    height: 28vh;
+}
+.accop2 {
+		-webkit-transition: all 800ms ease-in-out 0s;
+	-moz-transition: all 800ms ease-in-out 0s;
+	-ms-transition: all 800ms ease-in-out 0s;
+	-o-transition: all 800ms ease-in-out 0s;
+	transition: all 800ms ease-in-out 0s;
+    position: absolute;
+    top: 44vh;
+    left: 9vw;
+    width: 28vh;
+    height: 28vh;
+	opacity: .5;
+}
+.accop3 {
+		-webkit-transition: all 800ms ease-in-out 0s;
+	-moz-transition: all 800ms ease-in-out 0s;
+	-ms-transition: all 800ms ease-in-out 0s;
+	-o-transition: all 800ms ease-in-out 0s;
+	transition: all 800ms ease-in-out 0s;
+    position: absolute;
+    top: 44vh;
+    left: 47vw;
+    width: 28vh;
+    height: 28vh;
+	opacity: .5;
+}
+.zoomhov {
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	transition: all 300ms ease-in-out 0s;
+
+}
+.textacc {
+    font-family: "DIN Web", sans-serif;
+    line-height: 78px;
+    font-size: 2vh;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+
+
+#container {
+    margin: 0 auto;
+    width: 90%;
+    z-index: 103;
+    position: absolute;
+    left: 4%;
+    top: 5%;
+    /* max-height: 77%; */
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    transition: all 400ms ease-in-out 0s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 90%;
+}
+#childx {
+  display: table-cell;
+  vertical-align: middle;
+ }	
+#MenuText {
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	transition: all 400ms ease-in-out 0s;
+	text-transform: uppercase;
+ }	
+ 
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+#MenuText:hover {
+	-webkit-opacity: .7;
+	-moz-opacity: .7;
+	opacity: .7;
+}
+#Continue {
+	position: absolute;
+	left: 80%;
+	top: 25%;
+	z-index: 201;
+	opacity: 1;
+	width: 20%;
+	height: 50%;
+	background-attachment: scroll;
+	background-image: url(../Icons/Go.fw.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+.fadeinZoom {
+	animation-name: CL;
+	animation-fill-mode: forwards;
+	animation-duration: 2s; /* 3 seconds */
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: once;
+	animation-direction: normal;
+	animation-play-state: running;
+	/* Firefox: */
+	-moz-animation-name: CL;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 0s;
+	-moz-animation-iteration-count: once;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	/* Safari and Chrome: */
+	-webkit-animation-name: CL;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: once;
+	-webkit-animation-direction: nomral;
+	-webkit-animation-play-state: running;
+	/* Opera: */
+	-o-animation-name: CL;
+	-o-animation-fill-mode: forwards;
+	-o-animation-duration: 2s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 0s;
+	-o-animation-iteration-count: once;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	transition: all 400ms ease-in-out 0s;
+}
+
+@-webkit-keyframes CL {
+	from {
+	opacity: 0 ;
+
+	}
+	to {
+	opacity:1 ;
+	}
+}
+#left-bannerimage {
+	position: fixed;
+	left: 95%;
+	top: 0%;
+	width: 5%;
+	height: 100%;
+	z-index: 2;
+	background-image:url(../images/backgroundiamgemetal.jpg);
+	background-repeat:repeat;
+}
+#left-banner {
+	position: fixed;
+	left: 95%;
+	top: 0%;
+	width: 5%;
+	height: 100%;
+	z-index: 3;
+	background: -moz-linear-gradient(top,  rgba(0,34,32,0.89) 0%, rgba(0,34,32,0.89) 1%, rgba(0,48,64,0.8) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,34,32,0.89)), color-stop(1%,rgba(0,34,32,0.89)), color-stop(100%,rgba(0,48,64,0.8)));
+	background: -webkit-linear-gradient(top,  rgba(0,34,32,0.89) 0%,rgba(0,34,32,0.89) 1%,rgba(0,48,64,0.8) 100%);
+	background: -o-linear-gradient(top,  rgba(0,34,32,0.89) 0%,rgba(0,34,32,0.89) 1%,rgba(0,48,64,0.8) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,34,32,0.89) 0%,rgba(0,34,32,0.89) 1%,rgba(0,48,64,0.8) 100%);
+	background: linear-gradient(to bottom,  rgba(0,34,32,0.89) 0%,rgba(0,34,32,0.89) 1%,rgba(0,48,64,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3002220', endColorstr='#cc003040',GradientType=0 );
+}
+
+#right-banneradvert {
+	position: fixed;
+	left: 0%;
+	top: 0px;
+	width: 9.5%;
+	height: 100%;
+	z-index: 1;
+	background-color: #F4F4F4;
+	box-shadow: 0px 0px 4px #D2D2D2;
+}
+.Search {
+	border: 0px inset;
+	height: 100%;
+	width: 100%;
+	padding-left: 8px;
+}
+
+#soulstat-logo {
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	width: 71px;
+	height: 71px;
+	z-index: 11;
+	background-image: url(../images/SoulStat.fw.png);
+	background-size: contain;
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-transition: all 400mss ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	transition: all 400ms ease-in-out 0s;
+
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+	
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+	
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+#SoulStatRobot {
+	position: absolute;
+	left: 0%;
+	top: 0px;
+	width: 58px;
+	height: 58px;
+	z-index: 6;
+	opacity: .95;
+	box-shadow: 0px 0px 64px #fff;
+	border-radius: 50%;
+	background: rgb(0,76,102);
+	background: -moz-linear-gradient(-45deg,  rgba(0,76,102,1) 0%, rgba(0,64,32,1) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,76,102,1)), color-stop(100%,rgba(0,64,32,1)));
+	background: -webkit-linear-gradient(-45deg,  rgba(0,76,102,1) 0%,rgba(0,64,32,1) 100%);
+	background: -o-linear-gradient(-45deg,  rgba(0,76,102,1) 0%,rgba(0,64,32,1) 100%);
+	background: -ms-linear-gradient(-45deg,  rgba(0,76,102,1) 0%,rgba(0,64,32,1) 100%);
+	background: linear-gradient(135deg,  rgba(0,76,102,1) 0%,rgba(0,64,32,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004c66', endColorstr='#004020',GradientType=1 );
+	-webkit-animation: SS 4.5s infinite linear;
+	animation: SS 4.5s infinite linear;
+}
+
+@keyframes SS {
+	from {
+		transform: rotate(0deg)
+		           translate(-120px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-120px) 
+		           rotate(-360deg);
+	}
+}
+
+#signin-box {
+	position: absolute;
+	left: 30%;
+	top: 149px;
+	width: 40%;
+	height: 283px;
+	z-index: 7;
+	border: 1px solid #D6D6D6;
+	border-radius: 5px;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.98) 1%, rgba(255,255,255,0.98) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.98)), color-stop(1%,rgba(255,255,255,0.98)), color-stop(100%,rgba(255,255,255,0.98)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.98) 0%,rgba(255,255,255,0.98) 1%,rgba(255,255,255,0.98) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0.98) 0%,rgba(255,255,255,0.98) 1%,rgba(255,255,255,0.98) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.98) 0%,rgba(255,255,255,0.98) 1%,rgba(255,255,255,0.98) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.98) 0%,rgba(255,255,255,0.98) 1%,rgba(255,255,255,0.98) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faffffff', endColorstr='#faffffff',GradientType=0 );
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	transition: all 300ms ease-in-out 0s;
+}
+#signin-box:hover {
+	box-shadow: 0px 0px 20px #3B3535;
+}
+
+#cloudbottom {
+	position: absolute;
+	left: 0%;
+	top: 120px;
+	width: 100%;
+	height: 350px;
+	z-index: 2;
+	box-shadow: 0px 3px 15px #000000;
+	background-image: url(../images/clouds.jpg);
+	background-size: cover;
+	animation-name: bgimageX1;
+	animation-duration: 25s;; /* 3 seconds */
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1infinite;
+	animation-direction: normal;
+	animation-play-state: running;
+	/* Firefox: */
+	-moz-animation-name: bgimageX1;
+	-moz-animation-duration: 25s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 0s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	/* Safari and Chrome: */
+	-webkit-animation-name: bgimageX1;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: nomral;
+	-webkit-animation-play-state: running;
+	/* Opera: */
+	-o-animation-name: bgimageX1;
+	-o-animation-duration: 25s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 0s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+
+}
+
+@keyframes bgimageX1
+{
+	0%{ background-position: center 0%;/* This is a single-li+ne comment */
+	}
+	50%{ background-position: center 100%;/* This is a single-li+ne comment */
+	}
+
+	100% { background-position: center 0%; /* This is a single-line comment */
+	}
+}
+
+@-moz-keyframes bgimageX1
+{
+	0%{ background-position: center 0%;/* This is a single-li+ne comment */
+	}
+	50%{ background-position: center 100%;/* This is a single-li+ne comment */
+	}
+
+	100% { background-position: center 0%; /* This is a single-line comment */
+	}
+}
+@-webkit-keyframes bgimageX1
+{
+	0%{ background-position: center 0%;/* This is a single-li+ne comment */
+	}
+	50%{ background-position: center 100%;/* This is a single-li+ne comment */
+	}
+
+	100% { background-position: center 0%; /* This is a single-line comment */
+	}
+}
+#cloudbottombgcover {
+	position: absolute;
+	left: 0%;
+	top: 120px;
+	width: 100%;
+	height: 350px;
+	z-index: 3;
+	background: -moz-linear-gradient(top, rgba(0,102,51,0.89) 0%, rgba(0,101,51,0.89) 2%, rgba(0,71,75,0.8) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,102,51,0.89)), color-stop(2%,rgba(0,101,51,0.89)), color-stop(100%,rgba(0,71,75,0.8)));
+	background: -webkit-linear-gradient(top, rgba(0,102,51,0.89) 0%,rgba(0,101,51,0.89) 2%,rgba(0,71,75,0.8) 100%);
+	background: -o-linear-gradient(top, rgba(0,102,51,0.89) 0%,rgba(0,101,51,0.89) 2%,rgba(0,71,75,0.8) 100%);
+	background: -ms-linear-gradient(top, rgba(0,102,51,0.89) 0%,rgba(0,101,51,0.89) 2%,rgba(0,71,75,0.8) 100%);
+	background: linear-gradient(to bottom, rgba(0,102,51,0.89) 0%,rgba(0,101,51,0.89) 2%,rgba(0,71,75,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3006633', endColorstr='#cc00474b',GradientType=0 );
+}
+
+.fadeinZoom2 {
+	opacity: 0;
+	animation-name: cloudfade;
+	animation-fill-mode: forwards;
+	animation-duration: 3s; /* 3 seconds */
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: once;
+	animation-direction: normal;
+	animation-play-state: running;
+	/* Firefox: */
+	-moz-animation-name: cloudfade;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-duration: 3s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 1s;
+	-moz-animation-iteration-count: once;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	/* Safari and Chrome: */
+	-webkit-animation-name: cloudfade;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: once;
+	-webkit-animation-direction: nomral;
+	-webkit-animation-play-state: running;
+	/* Opera: */
+	-o-animation-name: cloudfade;
+	-o-animation-fill-mode: forwards;
+	-o-animation-duration: 3s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 1s;
+	-o-animation-iteration-count: once;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	transition: all 400ms ease-in-out 0s;
+}
+
+@-webkit-keyframes cloudfade {
+	from {
+	opacity: 0 ;
+
+	}
+	to {
+	opacity:1 ;
+	}
+}
+.fadeinZoom3 {
+	opacity: 0;
+	animation-name: cloudfade3;
+	animation-fill-mode: forwards;
+	animation-duration: 400ms; /* 3 seconds */
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: once;
+	animation-direction: normal;
+	animation-play-state: running;
+	/* Firefox: */
+	-moz-animation-name: cloudfade3;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-duration: 400ms;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 0s;
+	-moz-animation-iteration-count: once;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	/* Safari and Chrome: */
+	-webkit-animation-name: cloudfade3;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 400ms;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: once;
+	-webkit-animation-direction: nomral;
+	-webkit-animation-play-state: running;
+	/* Opera: */
+	-o-animation-name: cloudfade3;
+	-o-animation-fill-mode: forwards;
+	-o-animation-duration: 400ms;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 0s;
+	-o-animation-iteration-count: once;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	transition: all 400ms ease-in-out 0s;
+}
+
+@-webkit-keyframes cloudfade3 {
+	from {
+	opacity: 0 ;
+
+	}
+	to {
+	opacity:1 ;
+	}
+}
+
+#analyticsbackground {
+	position: absolute;
+	left: 0%;
+	top: 110%;
+	width: 100%;
+	height: 100%;
+	z-index: 7;
+	background-image: url(../images/analyticsbackground.jpg);
+	background-size: cover;	
+	background-position: center center;
+}
+#analyticsbackgroundcolor {
+	position: absolute;
+	left: 0%;
+	top: 110%;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+	opacity: 0;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.35)));
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+#customizebackground {
+	position: absolute;
+	left: 0%;
+	top: 220%;
+	width: 100%;
+	height: 100%;
+	z-index: 7;
+	background-image: url(../images/customizebackground.jpg); 
+	background-size: cover;	
+	background-position: center center;
+}
+#customizebackgroundcolor {
+	position: absolute;
+	left: 0%;
+	top: 220%;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+	opacity: 0;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.35)));
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+#ocenaimagebackground {
+	position: absolute;
+	left: 0%;
+	top: 330%;
+	width: 100%;
+	height: 100%;
+	z-index: 7;
+	background-image: url(../images/waterstat.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#ocenaimagebackgroundcolor {
+	position: absolute;
+	left: 0%;
+	top: 330%;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+	opacity: 0;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.35)));
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+#virtualtourbackground {
+	position: absolute;
+	left: 0%;
+	top: 440%;
+	width: 100%;
+	height: 100%;
+	z-index: 7;
+	background-image: url(../images/dreamhome.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#virtualtourbackgroundcolor {
+	position: absolute;
+	left: 0%;
+	top: 440%;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+	opacity: 0;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.35)));
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+#tonsmorebackground {
+	position: absolute;
+	left: 0%;
+	top: 550%;
+	width: 100%;
+	height: 100%;
+	z-index: 7;
+	background-image: url(../images/tonsmore.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#tonsmorebackgroundcolor {
+	position: absolute;
+	left: 0%;
+	top: 550%;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+	opacity: 0;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.35)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+#footergradient {
+	position: absolute;
+	left: 0%;
+	top: 610%;
+	width: 100%;
+	height: 30%;
+	z-index: 8;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+}
+#footerbottom {
+	position: absolute;
+	top: 640%; 
+	height: 300px;
+	width: 100%; 
+	background-color:#000;
+	z-index: 9;
+}
+#outer-container2 {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  height: 80%;
+  width: 96%;
+  z-index: 999999999;
+  background-color: rgba(255, 255, 255, 0);
+ }
+#outer-container {
+	position: absolute;
+	top: 14.5%;
+	left: 2%;
+	width: 96%;
+	z-index: 9;
+}
+.TitleFontContainers {
+	font-family: "Raleway";
+	line-height: 100px;
+	font-size: 96px;
+	color: #fff;
+}
+.SubTitleFontContainer {
+  font-family: "DIN Web", sans-serif;
+  line-height: 78px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+ }
+#BG1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center center;
+	left: 0px;
+	top: 0px;
+	background-image:url(../images/Wattz/4.jpg)
+}
+#BGchanger {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#FeaturedOrg-gradient {
+	position: absolute;
+	left: 0px;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.75) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.75)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.75) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.75) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.75) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.75) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#bf000000',GradientType=0 );
+}
+#Motto {
+	left: 0%;
+	top: 508px;
+	width: 100%;
+	height: 111px;
+	z-index: 201;
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 35px;
+	position: absolute;
+	text-align: center;
+	font-style: italic;
+}
+#soulstat-text {
+	position: absolute;
+	left: 90px;
+	top: 38px;
+	z-index: 5;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+#Featured-sponsor {
+border-radius: 50%;
+  margin: 0px auto;
+  width: 22vh;
+  height: 22vh;
+  z-index: 202;
+  opacity: .8;
+  background-size: contain;
+	background-image: url(../organizations/braza_roja/images/logo/LogoBraza.jpg);
+}
+
+#f1_container {
+  margin: 70vh auto;
+  width: 450px;
+  height: 22vh;
+  z-index: 1;
+  perspective: 1000;
+	display: none;  
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 700ms linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  /* padding: 10px; */
+  color: rgb(255, 255, 255);
+   text-align: center;
+  margin-top: 23vh;
+	font-family: "Raleway";
+  text-shadow: 0px 0px 25px #000;
+  font-size: 3.3vh;
+}
+#SoulStat-SM {
+	position: absolute;
+	left: 0%;
+	top: 21%;
+	width: 20%;
+	height: 57%;
+	z-index: 202;
+	background-image: url(../socialmedia-icons/soulstat.fw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#FaceBook-SM {
+	position: absolute;
+	left: 20%;
+	top: 21%;
+	width: 20%;
+	height: 57%;
+	z-index: 202;
+	background-image: url(../socialmedia-icons/facebook.fw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#Instagram-SM {
+	position: absolute;
+	left: 40%;
+	top: 21%;
+	width: 20%;
+	height: 57%;
+	z-index: 202;
+	background-image: url(../socialmedia-icons/instagram.fw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#Linkedin-SM {
+	position: absolute;
+	left: 60%;
+	top: 21%;
+	width: 20%;
+	height: 57%;
+	z-index: 202;
+	background-image: url(../socialmedia-icons/linkein.fw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#Twitter-SM {
+	position: absolute;
+	left: 80%;
+	top: 21%;
+	width: 20%;
+	height: 57%;
+	z-index: 202;
+	background-image: url(../socialmedia-icons/twitter.fw.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.accop1:hover {
+	    box-shadow: 0vh 0vh 6vh #18ABAB;
+}
+.accop3:hover {
+    box-shadow: rgb(16, 169, 73) 0px 0px 35px inset;
+			    border-radius: 3%;
+}
+.accop2:hover {
+    box-shadow: rgb(16, 169, 73) 0px 0px 35px inset;
+			    border-radius: 3%;
+}
+
+.zoomhov:hover {
+    cursor: pointer;
+    -webkit-filter: contrast(4);
+    filter: contrast(4);
+    transform: translate3d(0,1vh,0);
+}

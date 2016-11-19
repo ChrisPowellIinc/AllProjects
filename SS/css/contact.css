@@ -1,0 +1,208 @@
+#part1xcontact{
+	position: absolute;
+	top: 1%;
+	width: 69.5%;
+	max-width: 1075px;
+	z-index: 12;
+	padding-left: 1%;
+	overflow-y: auto;
+	height: 78%;
+}
+#part2xcontact{
+	position:absolute;
+	top: 80%;
+	height:20%;
+	width: 100%;
+	z-index:9;	
+	background: url("../images/cityshot3.jpg") no-repeat;
+	background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position-y: 95%;
+}
+#part3xcontact{
+	position: absolute;
+	top: 80%;
+	height:20%;
+	width: 100%;
+	z-index: 10;
+	background-size: cover;
+	opacity:.75;
+	background-color: #4C5F68;
+}
+#part4xcontact{
+	position:absolute;
+	top: 83%;
+	height: 13%;
+	left: 1%;
+	width: 30%;
+	z-index:11;	
+	background: url("../images/logo.fw.png") no-repeat;
+	background-size: contain;
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+
+}
+#part5xcontact{
+	color:#FEFEFE;
+	font-size:18px;
+	width: 100%;
+	min-height: 270px;
+	z-index: 10;
+	line-height: 26px; 
+	background-size: cover;
+	opacity:.75;
+	background-color: #4C5F68;
+	font-family: NewAsterIt, Fallback, sans-serif;
+	padding:20px;
+}
+#part6xcontact{
+	height:310px;
+	width: 310px;
+	z-index:11;	
+	background: url("../images/DI.jpg") no-repeat;
+	background-size: contain;
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+}
+#part7xcontact{
+	font-family: UniversLTStdLight, Fallback, sans-serif;
+	font-size:16px;
+	color:#FEFEFE;
+	width: 100%;
+	z-index:11;	
+	background-size: contain;
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+}
+#part8xcontact{
+	width: 33px; 
+	height: 55px;
+}
+#part9xcontact{
+	background: url("../images/leftredbox.jpg") no-repeat;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	width: 31px; 
+	height: 60px;
+	background-position-x: center;
+}
+#part10xcontact{
+position: absolute;
+top: 71%;
+height: 8%;
+left: 1%;
+width: 69.5%;
+z-index: 12;
+display: table;
+background: url("../images/companies.jpg") no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+box-shadow: 0px 3px 4px #CCC;
+max-width: 641px;
+background-position: center center;
+	max-width: 1075px;
+}
+.TextBox {
+	background-color: #FFF;
+	height: 31px;
+	width: 90%;
+	font-family: Calibri;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	box-shadow: inset;
+	border: 1px solid #C8C8C8;
+	padding-left: 3px;
+	border-radius: 3px;
+}
+.TextBox2 {
+	background-color: #FFF;
+	height: 81px;
+	width: 90%;
+	font-family: UniversLTStdLight, Fallback, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	box-shadow: inset;
+	border: 1px solid #C8C8C8;
+	padding-left: 3px;
+	border-radius: 3px;
+}
+.contactformer4x9 {
+	width: 96px;
+	height: 33px;
+	background: #2f4c64;
+	background: -moz-linear-gradient(top,  #2f4c64 0%, #4c5f68 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f4c64), color-stop(100%,#4c5f68));
+	background: -webkit-linear-gradient(top,  #2f4c64 0%,#4c5f68 100%);
+	background: -o-linear-gradient(top,  #2f4c64 0%,#4c5f68 100%);
+	background: -ms-linear-gradient(top,  #2f4c64 0%,#4c5f68 100%);
+	background: linear-gradient(to bottom,  #2f4c64 0%,#4c5f68 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f4c64', endColorstr='#4c5f68',GradientType=0 );
+	color: #FFF;
+	font-family: UniversLTStdLight, Fallback, sans-serif;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-transition: all 700ms ease-in-out 0s;
+	-moz-transition: all 700ms ease-in-out 0s;
+	-ms-transition: all 700ms ease-in-out 0s;
+	-o-transition: all 700ms ease-in-out 0s;
+	transition: all 700ms ease-in-out 0s;
+	border: inherit;
+	text-transform: uppercase;
+}
+#contactbutton {
+	cursor: pointer;
+}
+
+.contactformer4x9:hover {
+background: #2f4c64;
+background: -moz-linear-gradient(top,  #2f4c64 1%, #660000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#2f4c64), color-stop(100%,#660000));
+background: -webkit-linear-gradient(top,  #2f4c64 1%,#660000 100%);
+background: -o-linear-gradient(top,  #2f4c64 1%,#660000 100%);
+background: -ms-linear-gradient(top,  #2f4c64 1%,#660000 100%);
+background: linear-gradient(to bottom,  #2f4c64 1%,#660000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f4c64', endColorstr='#660000',GradientType=0 );
+}
+
+#Cloud1 {
+	position: absolute;
+	z-index: 0;
+	background-image: url(../images/bg.fw.png);
+	left: 2%;
+	top: 609px;
+	height: 59px;
+	width: 96%;
+	-webkit-transition: 1000ms ease-in-out;
+	-moz-transition: 1000ms ease-in-out;
+	-ms-transition: 1000ms ease-in-out;
+	-o-transition: 1000ms ease-in-out;
+	transition: 1000ms ease-in-out;
+	border: 1px solid #930003;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	opacity: .8;
+	-webkit-box-shadow: 0px 3px 5px #555555;
+	-moz-box-shadow: 0px 3px 5px #555555;
+	box-shadow: 0px 3px 5px #555555;
+}

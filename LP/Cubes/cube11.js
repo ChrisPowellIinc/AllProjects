@@ -1,0 +1,1 @@
+initCube(document.getElementById('cube-container11'))

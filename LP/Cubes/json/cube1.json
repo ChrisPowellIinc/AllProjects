@@ -1,0 +1,115 @@
+{
+	"cube": {
+		"top": {
+			"background": "transparent",
+
+			"images": [
+				
+				{
+			"source": "null",
+			"backgroundX": "url('images/Wattz/prof.png'), url('images/Wattz/proffesional.jpg')",
+			"backgroundS": "85%, cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+				}
+			]
+		},
+		
+		
+		"bottom": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Wattz/honest.png'), url('images/Wattz/honest.jpg')",
+			"backgroundS": "85%, cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+				}
+			]
+		},
+		
+		"left": {
+			"background": "transparent",
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Wattz/music.png'), url('images/Wattz/music.jpg')",
+			"backgroundS": "85%, cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "left center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+	
+				}
+			]
+		},
+		
+		"right": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Wattz/pers.png'), url('images/Wattz/personal.jpg')",
+			"backgroundS": "85%, cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+
+				}
+			]
+		},
+		
+		"front": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Wattz/meme.png'), url('images/Wattz/meme.jpg')",
+			"backgroundS": "85%, cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+				}
+			]
+		},
+		
+		"back": {
+			"background": "transparent",
+
+			"images": [
+				{
+			"source": "null",
+			"backgroundX": "url('images/Wattz/live.png'), url('images/Wattz/live.jpg')",
+			"backgroundS": "85%, cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+
+				}
+			]
+		}
+	}
+}

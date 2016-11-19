@@ -1,0 +1,106 @@
+{
+	"cube": {
+		"top": {
+			"background": "transparent",
+
+			"images": [
+				
+				{
+												"source": "null",
+			"backgroundX": "url('images/Beyonce/4.jpg')",
+			"backgroundS": "cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+
+
+	
+
+
+
+				}
+			]
+		},
+		
+		
+		"bottom": {
+			"background": "transparent",
+
+			"images": [
+				{
+																	"source": "null",
+			"backgroundX": "url('images/Beyonce/4.jpg')",
+			"backgroundS": "cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+
+
+	
+
+
+
+				}
+			]
+		},
+		
+		"left": {
+			"background": "transparent",
+			"images": [
+				{
+				}
+			]
+		},
+		
+		"right": {
+			"background": "transparent",
+
+			"images": [
+				{
+																	"source": "null",
+			"backgroundX": "url('images/Beyonce/4.jpg')",
+			"backgroundS": "cover",
+			"backgroundR": "no-repeat",
+			"backgroundP": "center",
+			"width": "100%",
+			"height": "100%",
+					"x": "0px",
+					"y": "0px"
+
+
+	
+
+
+
+				}
+			]
+		},
+		
+		"front": {
+			"background": "transparent",
+
+			"images": [
+				{
+					
+					
+				}
+			]
+		},
+		
+		"back": {
+			"background": "transparent",
+
+			"images": [
+				{
+
+				}
+			]
+		}
+	}
+}

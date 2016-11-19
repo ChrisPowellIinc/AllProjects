@@ -1,0 +1,143 @@
+@media only screen and (min-width : 320px) {
+	#areacover1 {
+		float: left;
+		
+		width: 100%; 
+		height: 100%;
+		overflow: auto;
+	}
+	.tx1 {
+		float: left;
+		font: 14px Arial;		
+		margin-top: 1vh;		
+		margin-left: 1vw;
+		text-align: left;
+		color: #787878;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	#areacover1 {
+		float: left;
+		
+		width: 100%; 
+		height: 100%;
+		overflow: auto;
+	}
+	.tx1 {
+		float: left;
+		font: 14px Arial;		
+		margin-top: 1vh;	
+		margin-left: 1vw;
+		text-align: left;
+		color: #787878;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#areacover1 {
+		float: left;
+		
+		width: 100%; 
+		height: 100%;
+		overflow: auto;
+	}
+	.tx1 {
+    float: left;
+    font-size: 14px;
+    font-family: "Raleway";
+    margin-top: 1vh;
+    margin-left: 1%;
+    text-align: left;
+    color: #004879;
+    width: 98%;
+    font-style: italic;
+ }
+	.tx2 {
+    float: left;
+    font: 18px "Raleway";
+    margin-top: 10px;
+    margin-left: 2%;
+    text-align: left;
+    color: #787878;
+    width: 26%;
+ }
+	.tx3 {
+    float: left;
+    width: 46%;
+    margin-left: 1%;
+  }
+	.tx4 {
+    float: left;
+    width: 28%;
+    margin-left: 1vw;
+    /* margin-top: 0.5vw; */
+    width: 54%;
+		}
+	.tx5 {
+    float: left;
+    width: 49%;
+  }
+	.tx6 {
+    float: left;
+    width: 10%;
+    margin-top: 0px;
+    background-color: #004879;
+    height: 40px;
+    margin-left: 40%;
+    color: white;
+    line-height: 40px;
+    /* font-size: 25px; */
+    /* font: 25px Arial; */
+    font-size: 18px;
+    font-family: "Raleway";
+  }
+
+
+	#weathercontaintx1 {float: left;/* box-shadow: 0px 1px 1px #5f5f5f; */width: 98%;margin-top: 60px;margin-left: 1%;border: 1px solid #D6D6D6;/* height: 145px; */}
+	#todayweathx1 {float: left;width: 43%;height: 100%;/* border-right: 1px solid #D6D6D6; */box-shadow: 0px 1px 4px #e0e0e0;}
+	#icontx1 {float: left;width: 36%;height: 220px;background-attachment: scroll;background-image: url(../../images/tx/partlycloudy.jpg);background-repeat: no-repeat;background-position: center;background-size: contain;margin-right: 4%;margin-left: 1%;}
+	#locationtx1 {float: left;margin: 6px;text-align: left;color: #787878;/* text-align: center; *//* color: #787878; */font-size: 14px;font-family: "Raleway";}
+	#locationchangeicontx1 {float: left;width: 10%;height: 16px;background-image: url(../../Icons/expandarrows.fw.png);margin-left: 2%;background-repeat: no-repeat;background-position: center bottom;background-size: contain;/* margin-top: .31%; */margin: 6px;}
+	#datetx1 {float: left;float: left;margin: 6px;text-align: left;color: #004879;/* text-align: center; *//* color: #787878; */font-size: 14px;font-family: Arial;width: 43%;}
+
+	weathforcastx1 {
+
+	}
+
+
+	#day1tx1 {float: left;width: 16.17%;height: 220px;background-color: #ffffff;box-shadow: 0px 1px 4px #e0e0e0;background-image: url(../../images/tx/sunny.jpg);background-repeat: no-repeat;background-position: center;background-size: 75%;/* margin-left: 1%; *//* -webkit-filter: sepia(37%); */filter:  sepia(70%);/* -webkit-filter: saturate(50); */filter: contrast(4);}
+
+	#day2tx1 {float: left;width: 16.67%;height: 220px;background-color: #ffffff;box-shadow: 0px 1px 4px #e0e0e0;background-image: url(../../images/tx/sunny.jpg);background-repeat: no-repeat;background-position: center;background-size: 75%;/* margin-left: 1%; *//* -webkit-filter: saturate(37); */}
+	#day3tx1 {float: left;width: 16.67%;height: 220px;background-color: #ffffff;box-shadow: 0px 1px 4px #e0e0e0;background-image: url(../../images/tx/sunny.jpg);background-repeat: no-repeat;background-position: center;background-size: 75%;/* -webkit-filter: saturate(24); */}
+	#day4tx1 {float: left;width: 16.67%;height: 220px;background-color: #ffffff;box-shadow: 0px 1px 4px #e0e0e0;background-image: url(../../images/tx/sunny.jpg);background-repeat: no-repeat;background-position: center;background-size: 75%;/* -webkit-filter: hue-rotate(66deg); */filter: hue-rotate(90deg);}
+	#day5tx1 {float: left;width: 16.67%;height: 220px;background-color: #ffffff;box-shadow: 0px 1px 4px #e0e0e0;background-image: url(../../images/tx/sunny.jpg);background-repeat: no-repeat;background-position: center;background-size: 75%;/* -webkit-filter: hue-rotate(90deg); */filter: hue-rotate(90deg);}
+	#day6tx1 {float: left;width: 17.1%;height: 220px;background-color: #ffffff;box-shadow: 0px 1px 4px #e0e0e0;background-image: url(../../images/tx/sunny.jpg);background-repeat: no-repeat;background-position: center;background-size: 75%;/* -webkit-filter: hue-rotate(159deg); */filter: hue-rotate(90deg);/* -webkit-filter: saturate(20) hue-rotate(-257deg); */}
+
+	#tittlefeattx1 {
+		float: right;
+		width: 97%;
+		background-color: rgba(255, 255, 255, 0.96);
+		height: 26px;
+		line-height: 26px;
+		/* bottom: 8px; */
+		color: #787878;
+		/* z-index: 1; */
+		/* z-index: 2; */
+		font-family: Arial;
+		padding-right: 3%;
+		/* font-style: italic; */
+	}
+
+}

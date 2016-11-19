@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Double Carousel Demo</title>
+
+	    <link href="styles/spinnable_carousel.css" rel="stylesheet" type="text/css" />
+		<link href="styles/carousel3d.css" rel="stylesheet" type="text/css" />
+
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="javascript/modernizr-1.6.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/minimal.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/util1.js" type="text/javascript"></script>
+		<script src="javascript/loadJson.js" type="text/javascript"></script>
+		<script src="javascript/Carousel3D.js" type="text/javascript"></script>
+		<script src="javascript/NumberAnimation.js" type="text/javascript"></script>
+		<script src="javascript/Cursor.js" type="text/javascript"></script>
+		<script src="javascript/Vector.js" type="text/javascript"></script>
+		<script src="javascript/SpinnableCarousel.js" type="text/javascript" charset="utf-8"></script>
+<link href="test3d/css/cubecss.css" rel="stylesheet" type="text/css">
+
+<script src="test3d/javascript/rotate-boxx.js"></script>
+<script src="test3d/javascript/trigger1.js"></script>
+<script src="javascript/dynamic.js"></script>
+		<style type="text/css">
+			html, body {
+				margin: 0;
+				padding: 0;
+				background: url(pattern.png);
+				background-color: #F2F2F2;
+				background-repeat: repeat;
+			}
+
+			#nav {
+				height: 25px;
+				z-index: 20;
+			}
+
+			#nav ul li {
+				display: block;
+				float: left;
+				border-right: 1px solid gray;
+			}
+			
+			#nav li a {
+				color: darkblue;
+				text-decoration: none;
+				padding: 10px;
+			}
+			
+			#nav li a:hover {
+				font-style: italic;
+			}
+			
+			#container {
+				margin: 0 auto;
+				width: 100%;
+				height: 100%;
+			}
+.menuin1 {
+    margin: 15px;
+background-color: rgba(24, 111, 75, 0.3);
+    height: 20px;
+	-webkit-transition: all 360ms ease-out 0s;
+	-moz-transition: all 360ms ease-out 0s;
+	-ms-transition: all 360ms ease-out 0s;
+	-o-transition: all 360ms ease-out 0s;
+	transition: all 360ms ease-out 0s;
+}
+		.menuin1:hover {
+	box-shadow: 0px 2px 30px #000;
+}		-webkit-transition: all 360s ease-out 0s;
+	-moz-transition: all 360s ease-out 0s;
+	-ms-transition: all 360s ease-out 0s;
+	-o-transition: all 360s ease-out 0s;
+	transition: all 360s ease-out 0s;
+}
+		.menuin1:hover {
+	min-height: 20px;
+}
+        </style>
+		<script type="text/javascript">
+		/**
+		 * If the portion of the URL after the pound sign
+		 * changes, load in the new page that is indicated.
+		 */
+		window.addEventListener("hashchange", function() {
+			var page = location.href.split("#")[1];
+			// These two will be equal if the user swipes or
+			// uses the next or previous buttons. In that case,
+			// the carousel turns first, then the URL is updated.
+			// In that case, we don't want the page to load twice;
+			if (carousel.currentPage() != page)
+				carousel.goToPage(page);
+		});
+
+		/**
+		 * When the page loads, load in the page indicated
+		 * by the text after the pound sign.
+		 */
+		window.addEventListener("load", function() {
+			// Add touch event so that links work in iPhone/iPad as well.
+			// Based on idea from:
+			// http://stackoverflow.com/questions/20204255/anchor-tag-not-working-in-safari-ios-for-iphone-ipod-touch-ipad
+			var links = document.getElementsByTagName("a");
+			for (var i = 0; i < links.length; i++) {
+				links[i].addEventListener("touchstart", function() { window.open(this, "_self"); });
+			}
+
+			var page = location.href.split("#")[1];
+			var caroPages = [ "page1x.html", "page2.html", "page3.html" ];
+			carousel = new Carousel3D(document.getElementById("carousel"), caroPages);
+			carousel.goToPage(page);
+			location.href = "#" + carousel.currentPage();
+
+			// Add callbacks, so that swiping (or pushing next/previous buttons)
+			// will update the URL as well.
+			var callback = (function() {
+				location.href = "#" + carousel.currentPage();
+			});
+			carousel.addNextCallback(callback);
+			carousel.addPreviousCallback(callback);
+
+			setTimeout(function() { document.body.className = "ready"; }, 100);
+		});
+		</script>
+<script type="text/javascript">
+/**
+ * When the page loads, load in the page indicated
+ * by the text after the pound sign.
+ */
+window.addEventListener("load", function() {
+    // Add touch event so that links work in iPhone/iPad as well.
+    // Based on idea from:
+    // http://stackoverflow.com/questions/20204255/anchor-tag-not-working-in-safari-ios-for-iphone-ipod-touch-ipad
+    var links = document.getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("touchstart", function() { window.open(this, "_self"); });
+    }
+
+    var caroPages = [ "page1x.php" ];
+    carousel = new Carousel3D(document.getElementById("carousel"), caroPages);
+    carousel.goToPage("page1x.php");
+
+    setTimeout(function() { document.body.className = "ready backgroundcolorchange"; }, 100);
+});
+
+</script>
+        
+	</head>
+	<body>
+  	<ul class="menu" style="
+    position: absolute;
+    z-index: 9999999;
+">
+										<li class="menuin1">
+											<a href="javascript:loadPage('page1x.html', 'front')"><div class="nav-buttonmenu" style="">home</div></a>
+											
+										</li>
+										<li class="menuin1">
+											<a href="javascript:loadPage('page2.html', 'bottom')"><div class="nav-buttonmenu" style="">projects</div></a>
+										</li>
+										<li class="menuin1">
+										<a href="javascript:loadPage('page3.html', 'right')"><div class="nav-buttonmenu" style="">associates</div></a>
+										</li>
+										<li class="menuin1">
+											<a href="javascript:loadPage('page1x.html', 'left')"><div class="nav-buttonmenu" style="">about</div></a>
+										</li>
+										<li class="menuin1">
+											<a href="javascript:loadPage('page1x.html', 'top')"><div class="nav-buttonmenu" style="">contact</div></a>
+										</li>
+									</ul>
+
+<div id="hiddencontainer" class="contentloader">
+    <div id="LoaderContainer" class="contentloader">
+        <div id="CubeCenter">
+            <div id="cube-container" style="height: 100%; width:100%;">
+                <div id="cube">
+                    <div id="front" class="cube-side">
+                    
+                    </div>
+                    <div id="back" class="cube-side"></div>
+                    <div id="left" class="cube-side"></div>
+                    <div id="right" class="cube-side"></div>
+                    <div id="top" class="cube-side"></div>
+                    <div id="bottom" class="cube-side"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+		<div id="container">
+			
+            
+			<div class="carousel3d-container" style="width:100%; height: 100%; position: absolute; z-index: 10; overflow: hidden;">
+				<div id="carousel" class="carousel3d" style="width:100%; height: 100%;">
+					<figure>
+
+                    
+
+                    </figure>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

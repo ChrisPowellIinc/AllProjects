@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dinaco Corporation Corp.</title>
+		<link href="newsite/Industrial_files/bootstrap.min.css" rel="stylesheet">
+<link href="css/cubecss.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/general.css">
+
+<script src="javascript/rotate-boxx.js"></script>
+<script src="javascript/trigger1.js"></script>
+		<link href="newsite/Industrial_files/global.css" rel="stylesheet">
+		<link href="newsite/Industrial_files/font-awesome.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+
+
+
+</head>
+
+<body>
+<header id="header">
+				<div class="primary-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 left-header">
+								<span>Dinaco Contracting Corp. </span>
+							</div>
+							<div class="col-sm-7 right-header">
+								<ul>
+									<li>
+										<a href="mailto:info@dinacocorp.com"><i class="fa fa-envelope-o"></i> info@dinacocorp.com</a>
+									</li>
+									<li>
+											<a href="https://www.facebook.com/Dinaco-Contracting-Corp-871845796226644/timeline/?ref=hl" target="_blank"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li>
+											<a href="https://instagram.com/dinacocontractingcorp/" target="_blank"><i class="fa fa-instagram"></i></a>
+										</li>
+										<li>
+											<a href="https://plus.google.com/u/0/b/103750554503060971407/103750554503060971407/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondry-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4">
+								<span class="num"> (718) 823-5300</span>
+							</div>
+							<div class="col-xs-12 col-sm-8 menu-wrapper">
+								<div class="button-wrapper">
+									<button class="nav-button"></button>
+								</div>
+								<nav class="navigation">
+
+									<ul class="menu">
+										<li class="">
+											<a href="javascript:loadPage('home.html', 'left')"><div class="nav-buttonmenu" style="">home</div></a>
+											
+										</li>
+										<li>
+											<a href="javascript:loadPage('projects.html', 'bottom')"><div class="nav-buttonmenu" style="">projects</div></a>
+										</li>
+										<li>
+										<a href="javascript:loadPage('associates.html', 'right')"><div class="nav-buttonmenu" style="">associates</div></a>
+										</li>
+										<li>
+											<a href="javascript:loadPage('about-us.html', 'back')"><div class="nav-buttonmenu" style="">about</div></a>
+										</li>
+										<li>
+											<a href="javascript:loadPage('contact.html', 'top')"><div class="nav-buttonmenu" style="">contact</div></a>
+										</li>
+									</ul>
+
+								</nav>
+								<a href="#" class="quote" style="display:none;">GET A QUOTE</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</header>
+
+
+
+<div id="hiddencontainer" class="contentloader">
+    <div id="LoaderContainer" class="contentloader">
+        <div id="CubeCenter">
+            <div id="cube-container" style="height: 100%; width:100%;">
+                <div id="cube">
+                    <div id="front" class="cube-side"></div>
+                    <div id="back" class="cube-side"></div>
+                    <div id="left" class="cube-side"></div>
+                    <div id="right" class="cube-side"></div>
+                    <div id="top" class="cube-side"></div>
+                    <div id="bottom" class="cube-side"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+$(window).on('resize', function(event){
+	var windowSize = $(window).width(); // Could've done $(this).width()
+    if(windowSize > 767){
+    	$('.navigation').css('display', 'block');
+    } 
+});
+</script>
+<script>
+$(window).on('resize', function(event){
+	var windowSize = $(window).width(); // Could've done $(this).width()
+    if(windowSize < 766){
+    	$('.navigation').css('display', 'none');
+    } 
+});
+</script>
+
+</body>
+
+</html>

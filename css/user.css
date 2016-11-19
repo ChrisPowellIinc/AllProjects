@@ -1,0 +1,165 @@
+#profcontain1 {
+	width: 100%;
+	 height: 100%;
+	  overflow-y: scroll; 
+	  position:absolute;
+}
+.covercollapse {
+    width: 34.5% !important;
+    overflow: hidden !important;
+}
+.covercollapse2 {
+    width: 34.5% !important;
+    border-radius: 5vh;
+    overflow: hidden !important;
+}
+.hiddenStuff{
+	display: none;
+}
+.triggerBtn{
+	float:right;
+	cursor:pointer;
+	margin-right: 500px;
+}
+
+.infoboxup{
+	top: 39vh !important;
+	height: 61vh !important;
+	    -webkit-transition: 300ms ease-in-out 0s;
+    -moz-transition: 300ms ease-in-out 0s;
+    -ms-transition: 300ms ease-in-out 0s;
+    -o-transition: 300ms ease-in-out 0s;
+    transition: 300ms ease-in-out 0s;
+    box-shadow: 0px -5px 41px #F1F9FB !important;
+	}
+.adboxboxup{
+    top: 35vh !important;
+    background-color: #E9E9E9 !important;
+	    -webkit-transition: 300ms ease-in-out 0s;
+    -moz-transition: 300ms ease-in-out 0s;
+    -ms-transition: 300ms ease-in-out 0s;
+    -o-transition: 300ms ease-in-out 0s;
+    transition: 300ms ease-in-out 0s;
+
+}
+#arrowpos{
+	background-image: url(../Icons/downarrow.fw.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 3vh;
+    background-position: center center;
+    height: 3vh;
+    cursor: pointer;
+    float: left;
+    margin-left: 89%;
+    background-color: #004879;
+    transform: rotate(0deg);
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -moz-transition: all 300ms ease-in-out 0s;
+    -ms-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+.downarrow{
+	 transform:rotate(180deg) !important;
+	 	-webkit-transition:  300ms ease-in-out 0s;
+	-moz-transition:  300ms ease-in-out 0s;
+	-ms-transition:  300ms ease-in-out 0s;
+	-o-transition:  300ms ease-in-out 0s;
+	transition:  300ms ease-in-out 0s;
+
+}
+
+
+#ExpandCoverButton {
+	position: fixed;
+    width: 13vw;
+    height: 100vh;
+    top: 0vh;
+	   left: 86%;
+    z-index: 198;
+    background-attachment: scroll;
+  background-image: url(../images/Advertisements/adexamples.jpg); 
+    background-repeat: no-repeat;
+background-position: center bottom;
+    background-size: contain;
+box-shadow: -1px 0px 0px #F1F1F1;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -moz-transition: all 300ms ease-in-out 0s;
+    -ms-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+.ExpandCoverStage1 {
+	left: 87.5% !important;
+}
+.ExpandCoverStage2 {
+	left: 34% !important;
+}
+
+#ExpandFeatureButton {
+position: fixed;
+    width: 27.5%;
+    height: 100vh;
+    top: 89vh;
+    left: 87.5%;
+    z-index: -1;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 85% 85%;
+    box-shadow: 0px 1px 1px #BDBDBD;
+    background-color: rgba(255, 255, 255, 0.81);
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -moz-transition: all 300ms ease-in-out 0s;
+    -ms-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+#ExpandFeatureButton:hover {
+	box-shadow: 0px 3px 18px #BDBDBD;
+	cursor: pointer;
+}
+.ExpandFeatureStage1 {
+top: 0vh !important;
+    left: 57% !important;
+}
+.ExpandFeatureStage2 {
+    left: 72.5% !important;
+    top: 0vh !important;
+    width: 12.5% !important;
+}
+
+.CoverExpandOn {
+	position: fixed;
+	z-index: 202 !important;
+	border-top-left-radius: 12px !important;
+	border-bottom-left-radius: 12px !important;
+	border-bottom-right-radius: 0px !important;	
+	-webkit-transition: all 0ms ease-in-out 0s;
+	-moz-transition: all 0ms ease-in-out 0s;
+	-ms-transition: all 0ms ease-in-out 0s;
+	-o-transition: all 0ms ease-in-out 0s;
+	transition: all 0ms ease-in-out 0s;
+	overflow: hidden !important;
+	box-shadow: 0px 1px 1px #000 !important;
+	left: 10% !important;
+	top: 42px !important;
+	width: 67.5% !important;
+	height: 91% !important;
+}
+.CoverExpandOff {
+}
+.FeatureExpandOn {
+	top: 533px !important;
+	left: 31.5% !important;
+}
+.FeatureExpandOff {
+	left: 34% !important;
+	top: 472px !important;
+}
+
+#arrowpos:hover {
+	background-color: #3CB371;
+	box-shadow: 0px 1px 20px #000;
+}

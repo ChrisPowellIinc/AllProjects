@@ -1,0 +1,321 @@
+#closeoutdrop {
+	  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  width: 4vw;
+  height: 4vw;
+  z-index: 202;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 0px 43px #FFFFFF;
+	background-image: url(../Icons/Close.fw.png);
+  background-size: 100% 100%;
+  box-shadow: rgb(255, 0, 0) 0px 0px 35px inset;
+}
+#FormSignUpMusic{
+position: absolute;
+top: 6%;
+width: 28%;
+left: 120%;
+opacity: .0;
+height: 82%;
+border: 1px solid #F00;
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
+#FormSignUpOrg {
+position: absolute;
+top: 6%;
+width: 28%;
+left: 120%;
+opacity: .0;
+    line-height: 30px;
+	border: 1px solid #F00;
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+
+}
+#FormSignUp {
+position: absolute;
+top: 6%;
+width: 28%;
+left: 120%;
+opacity: .0;
+height: 82%;
+border: 1px solid #F00;
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
+
+.formsignuser {
+  display: block !important;
+  position: absolute;
+  left: 70% !important;
+  top: 6%;
+  width: 28%;
+  z-index: 7;
+  border: 1px solid #003040 !important;
+  background-color: #FFFFFF;
+  overflow-y: auto;
+  opacity: 1 !important;
+  font-family: "Raleway";
+  	  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.FirstName {
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left: 2%;
+  top: 10px;
+  width: 96%;
+  height: 50px;
+  z-index: 8;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 8px;
+}
+.LastName {
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left: 2%;
+  top: 75px;
+  width: 96%;
+  height: 50px;
+  z-index: 8;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 8px;
+}
+.Username {
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left: 2%;
+  top: 140px;
+  width: 96%;
+  height: 50px;
+  z-index: 8;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 8px;
+}
+.EmailForm {
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left: 2%;
+  top: 205px;
+  width: 96%;
+  height: 50px;
+  z-index: 8;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 8px;
+}
+#Enterpw {
+  position: absolute;
+  left: 2%;
+  top: 268px;
+  width: 96%;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+.PasswordForm {
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left: 2%;
+  top: 300px;
+  width: 96%;
+  height: 50px;
+  z-index: 8;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 8px;
+}
+#Confirmpw {
+  position: absolute;
+  left: 2%;
+  top: 363px;
+  width: 96%;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+.PasswordForm2 {
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  left: 2%;
+  top: 395px;
+  width: 96%;
+  height: 50px;
+  z-index: 8;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 8px;
+}
+#Birthday {
+  position: absolute;
+  left: 2%;
+  top: 461px;
+  width: 96%;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+#Month1 {
+  position: absolute;
+  left: 2%;
+  top: 495px;
+  width: 96%;
+  height: 41px;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+#genre1 {
+  position: absolute;
+  left: 2%;
+  top: 495px;
+  width: 70%;
+  height: 41px;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+  }
+.Month2 {
+  width: 30%;
+  height: 41px;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+#Day1 {
+  position: absolute;
+  left: 32%;
+  top: 495px;
+  height: 41px;
+  z-index: 12;
+  width: 50%;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+.Day2 {
+  height: 41px;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+  width: 30%;
+}
+#Year1 {
+  position: absolute;
+  left: 48%;
+  top: 495px;
+  height: 41px;
+  z-index: 12;
+  width: 51%;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+}
+.Year2 {
+  height: 41px;
+  z-index: 12;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+  width: 30%;
+}
+.genre2 {
+    width: 70%;
+    height: 41px;
+    z-index: 12;
+    font-family: "Raleway";
+    color: #002E2E;
+    font-size: 16px;
+    text-indent: 2px;
+}
+
+.Gender {
+  position: absolute;
+  left: 65.5%;
+  top: 495px;
+  height: 41px;
+  z-index: 12;
+  width: 30%;
+  font-family: "Raleway";
+  color: #002E2E;
+  font-size: 16px;
+  text-indent: 2px;
+  border: 1px solid #ACACAC;
+}
+.SignUpButton {
+  position: absolute;
+  top: 568px;
+  left: 2%;
+  width: 96%;
+  height: 33px;
+  background-color: #444444;
+  color: #FFF;
+  font-family: "Raleway";
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 33px;
+  margin-bottom: 28px;
+  font-size: 20px;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -moz-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+  border: inherit;
+  box-shadow: 0px 3px 7px #666;
+  cursor: pointer;
+  background: -moz-linear-gradient(top, #0A766A 0%, #004d66 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0A766A ), color-stop(100%,#004d66));
+  background: -webkit-linear-gradient(top, #0A766A 0%,#004d66 100%);
+  background: -o-linear-gradient(top, #0A766A 0%,#004d66 100%);
+  background: -ms-linear-gradient(top, #0A766A 0%,#004d66 100%);
+  background: linear-gradient(to bottom, #0A766A 0%,#004d66 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005466', endColorstr='#004d66',GradientType=0 );
+  border-radius: 4px;
+  -webkit-transition: all 100ms ease-in-out 0s;
+  -moz-transition: all 100ms ease-in-out 0s;
+  -ms-transition: all 100ms ease-in-out 0s;
+  -o-transition: all 100ms ease-in-out 0s;
+  transition: all 100ms ease-in-out 0s;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<style type="text/css">
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #000;
+}
+.TextHeaderA {
+opacity: 1;
+font-size: 23px;
+line-height: 43px;
+font-weight: bold;
+color: #99866D;
+text-align: left;
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}		
+
+body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+min-height: 100%;
+}
+html { 
+    height:100%;
+}
+			
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+#nav ul li:hover {
+}
+.CMSon{
+top: 0%;
+left: 0%;
+width: 100%;
+z-index: 98;
+height: 100%;}
+.CMSoff{
+	top: 0%;
+	left: 0%;
+	z-index: 102;
+	width: 100%;
+	height: 100%;
+}
+
+
+    .container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      -webkit-perspective: 800px;
+         -moz-perspective: 800px;
+           -o-perspective: 800px;
+              perspective: 800px;
+    }
+#BG1 {
+width: 100%;
+height: 100%;
+position: absolute;
+background-size: cover;
+left: 0%;
+top: 0px;
+z-index: 2;
+opacity: 1;
+background-image: url(../images/BG.jpg);
+}
+#BG2 {
+	background: #FFF;
+	background: -moz-linear-gradient(left,  #627d4d 0%, #111F05  100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#627d4d), color-stop(100%,#111F05 ));
+	background: -webkit-linear-gradient(left,  #627d4d 0%,#111F05  100%);
+	background: -o-linear-gradient(left,  #627d4d 0%,#111F05  100%);
+	background: -ms-linear-gradient(left,  #627d4d 0%,#111F05  100%);
+	background: linear-gradient(to right,  #ECE7CD 0%,#111F05  100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#111F05 ',GradientType=1 );
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+}
+.Text5 {
+	font-family: "Open Sans";
+	font-size: 13px;
+	line-height: 24px;
+	color: #99866D;
+}
+#Baseline {
+	width: 100%;
+	height: 5%;
+	background-color: #000;
+	opacity: .9;
+	position: absolute;
+	top: 95%;
+	z-index: 99999;
+}
+
+</style>
+
+
+        <script type="text/javascript">
+            (function() {
+                var link_element = document.createElement("link"),
+                    s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script>
+
+<link rel="stylesheet" href="assets/cube.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/carousel3d.css" />
+<link rel="stylesheet" type="text/css" href="css/Arrow.css" />
+<script type="text/javascript" src="loadJsonFromUrlIntoCube.js"></script>
+<script type="text/javascript" src="javascript/util1.js"></script>
+<script type="text/javascript" src="javascript/Carousel3D.js"></script>
+<script type="text/javascript" src="javascript/NumberAnimation.js"></script>
+      
+		<script type="text/javascript">
+		/**
+		 * If the portion of the URL after the pound sign
+		 * changes, load in the new page that is indicated.
+		 */
+		window.addEventListener("hashchange", function() {
+			var page = location.href.split("#")[1];
+			// These two will be equal if the user swipes or
+			// uses the next or previous buttons. In that case,
+			// the carousel turns first, then the URL is updated.
+			// In that case, we don't want the page to load twice;
+			if (carousel.currentPage() != page)
+				carousel.goToPage(page);
+		});
+
+		/**
+		 * When the page loads, load in the page indicated
+		 * by the text after the pound sign.
+		 */
+		window.addEventListener("load", function() {
+			var page = location.href.split("#")[1];
+			if (typeof page == 'undefined')
+				page = "Caro6.html";
+			var caroPages = [ "Caro1.html", "Caro2.html", "Caro3.html", "Caro4.html", "Caro5.html", "Caro6.html" ];
+			carousel = new Carousel3D(document.getElementById("carousel"), caroPages);
+			carousel.goToPage(page);
+			location.href = "#" + carousel.currentPage();
+
+			// Add callbacks, so that swiping (or pushing next/previous buttons)
+			// will update the URL as well.
+			var callback = (function() {
+				location.href = "#" + carousel.currentPage();
+			});
+			carousel.addNextCallback(callback);
+			carousel.addPreviousCallback(callback);
+
+			setTimeout(function() { document.body.className = "ready"; }, 100);
+		});
+		</script>
+
+</head>
+
+<body>
+
+<div id="More">
+MORE <div id="Continue"></div>
+</div>
+
+ 
+
+<a href="javascript:carousel.previous()"><div id="leftArrow"></div></a>
+
+<a href="javascript:carousel.next()"><div id="rightArrow"></div></a>
+
+
+
+<div id="ContainAll" class="CMSon">
+<div id="BG2"></div>   		
+<div id="BG1"></div>
+
+
+			
+			<div class="caro-container" style="position: absolute; background-color: transparent; width:100%; height: 100%; overflow:hidden; top:0%; left:0%; z-index:100;">
+            
+      <section class="container">
+      
+            <div id="carousel" class="carousel3d" style="width:100%; height: 100%;background-color: transparent">
+                
+					<figure></figure>
+					<figure></figure>
+					<figure></figure>
+					<figure></figure>
+					<figure></figure>
+					<figure></figure>
+
+
+			</div>
+
+  </section>
+          
+			</div>
+    
+    
+</div>
+</body>
+</html>

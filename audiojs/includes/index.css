@@ -1,0 +1,15 @@
+@font-face { font-family: 'bpreplay'; font-weight: normal; font-style: normal; src: url('BPreplay-webfont.eot'); src: local('☺'), url('BPreplay-webfont.woff') format('woff'), url('BPreplay-webfont.ttf') format('truetype'), url('BPreplay-webfont.svg#webfontgzJ8Cr4g') format('svg'); }
+
+body { font-family: sans-serif; background: #f6f6f0; color: #330; line-height: 1.5; }
+header {
+	display: block;
+	background: url('./divider.png') bottom center no-repeat;
+	padding: 10px 0px;
+	margin: 0px 0px 20px;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #F00;
+}
+
+.audiojs { margin: 202px -211px 0px; }
